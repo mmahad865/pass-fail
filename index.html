@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pass/Fail</title>
+</head>
+
+<body>
+    <h1>Validate Password</h1>
+    <form id=" validatePassword" onsubmit="return validateForm()">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required><br>
+        <span class="error-message" id="passwordError"></span><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
